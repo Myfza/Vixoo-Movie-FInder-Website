@@ -18,17 +18,23 @@
 
 ### ⚙️ Cara Instalasi dan Menjalankan Proyek
 1. Clone repositori
-bash
-Salin
-Edit
 git clone https://github.com/username/Vixoo-Movie-FInder-Website.git
 cd Vixoo-Movie-FInder-Website
+git clone https://github.com/username/Vixoo-Movie-FInder-Website.git
+cd Vixoo-Movie-FInder-Website
+
 2. Install dependencies
-bash
-Salin
-Edit
 npm install
-3. Setup Supabase
+
+4. Setup Supabase
+Daftar di Supabase.io
+
+Buat project baru
+
+Catat project URL dan anon key
+
+Setup struktur database via SQL migration (supabase/migrations/)
+5. Setup Supabase
 Daftar di Supabase.io
 
 Buat project baru
