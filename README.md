@@ -1,28 +1,28 @@
 # 🎬 Vixoo - Movie Finder Website
 
-**Vixoo** adalah aplikasi web pencarian film yang cepat, stylish, dan interaktif. Dibangun menggunakan stack modern seperti **Vite**, **TypeScript**, dan **TailwindCSS**, serta terintegrasi dengan **TMDb API** untuk data film dan **Supabase** untuk autentikasi serta penyimpanan data pengguna.
+Vixoo is a fast, stylish, and interactive movie search web application. Built using a modern stack like Vite, TypeScript, and TailwindCSS, it's integrated with the TMDb API for movie data and Supabase for user authentication and data storage.
 
 ---
 
-## 🔥 Fitur Unggulan
+## 🔥 Featured Features
 
-- 🔍 **Pencarian Film Realtime** menggunakan TMDb API  
-- 📝 **Detail Film Lengkap**: judul, rating, overview, trailer, dsb  
-- ❤️ **Simpan Favorit** dengan Supabase Database  
-- 👤 **Autentikasi User** via Supabase Auth (Register, Login, Logout)  
-- 🌙 **Dark Mode Ready** menggunakan TailwindCSS  
-- ⚡ **Performa Cepat** dengan Vite + Optimized Build  
-- 📱 **Desain Responsif** (Mobile First)  
+- 🔍 **Realtime Movie Search** using TMDb API
+- 📝 **Complete Movie Details**: title, rating, overview, trailer, etc.
+- ❤️ **Save Favorites** with Supabase Database
+- 👤 **User Authentication** via Supabase Auth (Register, Login, Logout)
+- 🌙 **Dark Mode Ready** using TailwindCSS
+- ⚡ **Fast Performance** with Vite + Optimized Build
+- 📱 **Responsive Design** (Mobile First)
 
 ---
 
-## ⚙️ Cara Instalasi dan Menjalankan Proyek
+## ⚙️ How to Install and Run the Project
 
-### 1. Clone repositori
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/username/Vixoo-Movie-FInder-Website.git
-cd Vixoo-Movie-FInder-Website
+cd Vixoo-Movie-Finder-Website
 ```
 
 ### 2. Install dependencies
@@ -33,74 +33,68 @@ npm install
 
 ### 3. Setup Supabase
 
-- Daftar di [Supabase.io](https://supabase.com)
-- Buat project baru
-- Catat **Project URL** dan **Anon Key**
-- Setup struktur database dengan SQL file di `supabase/migrations/`
-- Tambahkan file `.env` di root project dengan isi seperti berikut:
+- Register at [Supabase.io](https://supabase.com)
+- Create a new project
+- Note the **Project URL** and **Anon Key**
+- Setup the database structure with a SQL file in `supabase/migrations/`
+- Add a `.env` file to the project root with the following contents:
 
 ```env
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
-### 4. Setup TMDb API
+### 4. Setup the TMDb API
 
-- Daftar akun di [TMDb](https://www.themoviedb.org/)
-- Dapatkan API Key (v3 auth)
-- Tambahkan ke file `.env`:
+- Register an account at [TMDb](https://www.themoviedb.org/)
+- Get an API Key (v3 auth)
+- Add to file `.env`:
 
 ```env
 VITE_TMDB_API_KEY=your_tmdb_api_key
 ```
 
-### 5. Jalankan proyek secara lokal
+### 5. Run the project locally
 
 ```bash
 npm run dev
 ```
 
-Akses proyek di: `http://localhost:5173`
+Access the project at: `http://localhost:5173`
 
 ---
 
-## 🧪 Teknologi yang Digunakan
+## 🧪 Technologies Used
 
-| Teknologi     | Keterangan                        |
+| Technology | Description |
 |---------------|-----------------------------------|
-| Vite          | Dev server dan bundler modern     |
-| TypeScript    | Bahasa pemrograman utama          |
-| TailwindCSS   | Utility-first CSS framework       |
-| Supabase      | Backend: Auth + DB + Storage      |
-| TMDb API      | Sumber data film                  |
-| PostCSS       | CSS transformer                   |
+| Vite | Modern dev server and bundler |
+| TypeScript | Main programming language |
+| TailwindCSS | Utility-first CSS framework |
+| Supabase | Backend: Auth + DB + Storage |
+| TMDb API | Movie data source |
+| PostCSS | CSS transformer |
 
 ---
 
-## ⚠️ Catatan Penting
+## ⚠️ Important Notes
 
-- Jangan commit file `.env` ke repositori publik.
-- Pastikan Supabase sudah memiliki schema & table yang sesuai.
-- Koneksi internet diperlukan untuk menggunakan TMDb dan Supabase API.
+- Do not commit the `.env` file to the public repository.
+- Ensure Supabase has the appropriate schema and tables.
+- An internet connection is required to use TMDb and the Supabase API.
 
 ---
 
-## 📌 Rencana Pengembangan
+## 📌 Development Plan
 
-- 🗂️ Filter berdasarkan genre dan tahun
-- 📽️ Modal untuk trailer YouTube
+- 🗂️ Filter by genre and year
+- 📽️ Modal for YouTube trailers
 - 🔄 Infinite scroll / pagination
 - 📱 PWA (Progressive Web App)
-- 🌐 Multibahasa (i18n)
-- 🧠 Rekomendasi film berbasis histori pengguna
+- 🌐 Multilingual (i18n)
+- 🧠 Movie recommendations based on user history
 
 ---
 
-## 📃 Lisensi
-
-Proyek ini dilisensikan dengan lisensi MIT. Bebas digunakan, dimodifikasi, dan dikembangkan lebih lanjut.
-
----
-
-> Dibuat dengan ❤️ oleh **Myfza**  
+> Made with ❤️ by **Myfza**
 > Powered by Supabase & TMDb API
